@@ -13,15 +13,26 @@
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
-    <header>
+    <header class="header">
+      <!-- Bloque -->
       <a href="./index.html">
-        <img src="./img/logo.png" alt="logotipo" />
+        <img class="header__logo" src="./img/logo.png" alt="logotipo" />
+        <!-- Elemento -->
       </a>
     </header>
 
-    <nav>
-      <a href="#">Tienda</a>
-      <a href="#">Nosotros</a>
+    <nav class="navegacion">
+      <!--Modificador-->
+      <a class="navegacion__enlace navegacion__enlace--activo" href="#"
+        >Tienda</a
+      >
+      <a class="navegacion__enlace" href="#">Nosotros</a>
     </nav>
+
+    <footer class="footer">
+      <p class="footer__texto">
+        Front End Store - Todos los derechos reservados 2023
+      </p>
+    </footer>
   </body>
 </html>
